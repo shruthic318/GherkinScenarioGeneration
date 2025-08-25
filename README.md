@@ -46,3 +46,24 @@ python3 utils/compare_training_metrics.py \
  
 # to generate inference results graphs
 python3 utils/visualize_inference_results.py 
+
+GherkinScenarioGeneration/
+├── config/                          # Model configurations and hyperparameters
+├── data/                           # Raw dataset for training (100,400a dn 1000) |Test datasets (100, 400, 1000 samples) |unlabelled data
+├── finetuned_models/               # Fine-tuning scripts for models
+├── inference/                      # Inference scripts and inference scenario generation scripts
+├── saved_models/                   # Fine-tuned models
+├── training_metrics/               # Training performance logs and metrics
+├── generated_gherkin/              # Generated Gherkin scenario outputs from inference
+├── comparison_plots/               # Training and inference visualizations
+├── logs/                          # Training logs by model
+├── utils/                         # Script to generate training and inference comparison graphs
+├── cohenKappa/                    # Labelled scenarios analysed for interannotator agreement
+└── LabellingGherkinScenarios/     # Scenario labeling tool
+└── main.py                        # to invoke the finetune /inference script
+└── README.md                      # Project Documentation
+└── requirements.txt               # Required python libraries
+
+
+
+
