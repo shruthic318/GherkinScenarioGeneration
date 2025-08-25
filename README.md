@@ -23,16 +23,16 @@ python3 main.py --model [model_name] --mode [mode] --input [input_path] --config
  inference_ia3
 
 # sample command to run finetune deepseek model with 100 data samples. 
-python3 main.py --model tinyllama --mode finetune_1000 --input /Applications/GherkinScenarioGeneration/data/input/100_finance_with_chain_of_thought_gherkin.json --config config/config.yaml  
+python3 main.py --model tinyllama --mode finetune_1000 --input /data/input/100_finance_with_chain_of_thought_gherkin.json --config config/config.yaml  
 
 # sample command to run finetune tinyllama model with ia3 fine tuning 
-python3 main.py --model tinyllama --mode finetune_ia3 --input /Applications/GherkinScenarioGeneration/data/input/latest_finance_with_chain_of_thought_gherkin.json --config config/config.yaml  
+python3 main.py --model tinyllama --mode finetune_ia3lora --input /data/input/latest_finance_with_chain_of_thought_gherkin.json --config config/config.yaml  
 
 # sample command to run inference for starcoder model fientuned with 100 data samples. 
-python3 main.py --model starcoder --mode inference_100 --input /Applications/GherkinScenarioGeneration/data/testdata/test_data_100.json --config config/config.yaml  
+python3 main.py --model starcoder --mode inference_100 --input /data/testdata/test_data_100.json --config config/config.yaml  
 
 # sample command to run finetune phi model with ia3 fine tuning 
-python3 main.py --model phi --mode inference_ia3 --input /Applications/GherkinScenarioGeneration/data/testdata/test_data.json --config config/config.yaml
+python3 main.py --model phi --mode inference_ia3lora --input /data/testdata/test_data.json --config config/config.yaml
 
 # to generate gherkin scenarios for sample requirement, run the files in the folder: inference/inference_forGeneratingGherkinScenarios
 
