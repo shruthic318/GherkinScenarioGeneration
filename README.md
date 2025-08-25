@@ -1,28 +1,26 @@
 # Steps to set the up the project.
 
 # Prerequisites
-# python3.8+
-# git to clone the repository
-
-# create and activate virtual environment
+python3.8+
+git to clone the repository
 
 # Install all the required libraries, by running the following command in terminal
 pip install -r requirements.txt
 
 # Set the Open API key in .env file against OPEN_AP_KEY(so that labelling can be performed, using openAI)
-# Set the hugging face token in config/config/yaml , against the hugging face:
-#                                                                   token:
+# Set the hugging face token in config/config/yaml , against the
+hugging face:
+ token:
 
 # to run the finetune model script /inference script, the following command needs to be run
 python3 main.py --model [model_name] --mode [mode] --input [input_path] --config config/config.yaml
 
-# Possible values for model: phi, tinyllama, deepseek, starcoder
-# Possible values for mode: 
-# inference
-# inference_100
-# inference_400
-# inference_1000
-# inference_ia3
+ Possible values for mode: 
+ inference
+ inference_100
+ inference_400
+ inference_1000
+ inference_ia3
 
 # sample command to run finetune deepseek model with 100 data samples. 
 python3 main.py --model tinyllama --mode finetune_1000 --input /Applications/GherkinScenarioGeneration/data/input/100_finance_with_chain_of_thought_gherkin.json --config config/config.yaml  
@@ -46,4 +44,3 @@ python3 utils/compare_training_metrics.py \
  
 # to generate inference results graphs
 python3 utils/visualize_inference_results.py 
-
