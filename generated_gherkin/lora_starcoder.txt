@@ -1,0 +1,26 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live market price fetch
+In order to track the value of cryptocurrencies
+As a user
+I want to fetch live market prices
+
+Scenario: Successful live market price fetch
+Given I am a registered user
+And I have a valid API key
+When I fetch the live market prices
+Then I should receive a list of live market prices
+And the response should contain a latency of less than 1 second
+
+Scenario: Unsuccessful live market price fetch due to invalid API key
+Given I am a registered user
+And I have an invalid API key
+When I fetch the live market prices
+Then I should receive an error message
+And the response should contain a latency of less than 1 second
+
+Scenario: Unsuccessful live market price fetch due to network issues
+Given I am a registered user
+And I am connected to the internet
+When I fetch the live market prices
+Then I should receive an error message
+And the response should contain a latency of less than 1 second

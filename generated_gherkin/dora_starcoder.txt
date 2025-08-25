@@ -1,0 +1,18 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live market price fetch
+In order to track the market prices more effectively and accurately
+As a user
+I want to fetch the live market prices
+
+Scenario: Fetch live market prices
+Given a user is on the market prices page
+When the user requests a live market price
+Then the system should fetch the live market prices
+And the system should respond with the live market prices within 1 second
+
+Scenario: Fetch live market prices in case of network outage
+Given a user is on the market prices page
+When the user requests a live market price
+And the user's network connection is interrupted
+Then the system should fetch the live market prices
+But the system should respond with the live market prices within 1 second

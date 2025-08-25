@@ -1,0 +1,19 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live Market Prices Fetching
+
+Scenario: Fetch Live Market Prices with a latency of less than one second
+Given I am a user with a valid user profile
+And I have a valid internet connection
+When I try to fetch live market prices 
+Then the fetched prices should be accurate and not delayed by more than a second
+
+Scenario: Fetch Live Market Prices with no internet connection
+Given I am a user with a valid user profile
+But I have no internet connection
+When I try to fetch live market prices
+Then the fetch should fail with an error message indicating that there is no internet connection
+
+Scenario: Fetch Live Market Prices with a user with invalid user profile
+Given I am a user with an invalid user profile
+When I try to fetch live market prices 
+Then the fetch should fail with an error message indicating that the user profile is invalid

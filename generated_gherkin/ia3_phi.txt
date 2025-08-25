@@ -1,0 +1,32 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+    
+    Scenario: Fetching live market prices
+    When: The application is launched
+    Then: The application fetches live market prices
+    
+    Scenario: Errors while fetching live market prices
+    When: The application is launched
+    Then: Errors occur while fetching live market prices
+    
+    Scenario: Network error while fetching live market prices
+    When: The application is launched
+    Then: Network error occurs while fetching live market prices
+    
+    Scenario: Fetching live market prices with a timeout
+    When: The application is launched
+    Then: The application fetches live market prices but with a timeout
+    
+    Scenario: HTTP Error occurred while fetching live market prices
+    When: The application is launched
+    Then: The application fetches live market prices but an HTTP error occurs
+    
+    Scenario: Handling errors while fetching live market prices
+    When: The application is launched
+    Then: Errors occur while fetching live market prices
+    
+    Scenario: Fetching live market prices with a high latency
+    When: The application is launched
+    Then: The application fetches live market prices but with a high latency
+    
+    Scenario: Errors while fetching live market prices
+    

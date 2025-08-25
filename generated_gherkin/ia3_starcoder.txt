@@ -1,0 +1,34 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Fetch live market prices
+In order to track live market prices
+As a user
+I want to fetch live market prices 
+
+Scenario: Successful fetching live market prices
+Given that I am a registered user
+And I am on the market prices page
+When I request for live market prices
+Then I should receive live market prices in an XML response
+And the response should be delayed by less than 1 second
+
+Scenario: Unsuccessful fetching live market prices due to network error
+Given that I am a registered user
+And I am on the market prices page
+When I request for live market prices
+Then I should receive an error response
+And the error response should state "Network error"
+And the response should be delayed by less than  the network latency
+
+Scenario: Unsuccessful fetching live market prices due to user not being registered
+Given that I am a non-registered user
+And I am on the market prices page
+When I request for live market prices
+Then I should receive an error response
+And the error response should state "Registration required"
+
+Scenario: Unsuccessful fetching live market prices due to server error
+Given that I am a registered user
+And I am on the market prices page
+When the server is down
+And I request for live market prices
+Then I should receive an error

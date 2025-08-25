@@ -1,0 +1,14 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+As a user, I want to fetch live market prices, so that I can make informed investment decisions.
+
+Feature: Market Fetching
+  Scenario: Fetch live market prices
+    Given system has the requirement to fetch live market prices
+    When market data fetching module is invoked
+    Then market data is fetched with a latency of less than 1 second
+
+  Scenario: Fetch market prices with an invalid URL
+    Given system has an invalid URL to fetch live market prices
+    When market data fetching module is invoked
+    Then an error is thrown with a message "Invalid URL"
+    And the market data fetching module is not invoked

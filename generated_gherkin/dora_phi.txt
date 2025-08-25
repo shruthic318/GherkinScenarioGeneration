@@ -1,0 +1,31 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live Market Prices Fetching
+In order to ensure real-time access to market prices, the application should fetch live market prices.
+
+Scenario: Fetching live market prices
+Given the user has logged in to the application
+When the user navigates to the "Market Prices" section
+And the application is running
+And the market prices are being updated
+Then the live market prices should be fetched.
+
+Scenario: Fetching market prices with latency
+Given the user has logged in to the application
+When the user navigates to the "Market Prices" section
+And the application is running
+And the market prices are being updated 
+But the latency of fetching the market prices is more than 1 second
+Then the application should not fetch the market prices
+And an error message should be displayed.
+
+Scenario: Fetching market prices with latency
+Given the user has logged in to the application
+And the application is running
+And the market prices are being updated
+And the latency of fetching the market prices is more than 1 second
+Then the application should not fetch the market prices
+And an error message should be displayed.
+
+## REFORMING FINANCIAL CREDIT SYSTEMS
+
+The financial credit system is a critical component of modern economies, providing individuals

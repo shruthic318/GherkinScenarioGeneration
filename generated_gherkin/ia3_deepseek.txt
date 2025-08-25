@@ -1,0 +1,29 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+
+Feature: Fetching live market prices with a latency of less than 1 second
+
+As a market user, I want to fetch live market prices with a latency of less than 1 second, so that I can get the latest information about the market.
+
+Scenario: Successful fetch of market prices
+
+Given an authenticated user with relevant permissions,
+When I visit the market prices page,
+Then the market prices should be fetched with a latency of less than 1 second.
+
+Scenario: Failure to fetch market prices due to network latency
+
+Given an authenticated user with relevant permissions,
+When I visit the market prices page, and the network is experiencing any kind of latency,
+Then the market prices should not be fetched due to network latency.
+
+Scenario: Failure to fetch market prices due to invalid request
+
+Given an unauthenticated user with no relevant permissions,
+When I visit the market prices page,
+Then the market prices should not be fetched due to invalid request.
+
+Scenario: Failure to fetch market prices due to invalid input
+
+Given an authenticated user with relevant permissions,
+When I visit the market prices page with invalid input,
+Then the market prices should not be

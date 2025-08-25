@@ -1,0 +1,26 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live Market Prices Fetching with a Latency of Less Than 1 Second
+As a user, I want to fetch live market prices with a latency of less than 1 second, so that I can manage my finances more effectively.
+
+Scenario: Successful fetch of live market prices within 1 second
+Given I am a registered user
+And I am logged into the application
+When I request to fetch the live market prices
+Then the system should fetch the live market prices within 1 second
+And I should receive the live market price data.
+
+Scenario: Failed fetch of live market prices due to network connectivity issue
+Given I am a registered user
+And I am logged into the application
+When I request to fetch the live market prices
+And the network connectivity is not available
+Then the system should display an error message "Network connectivity issue"
+And I should not receive the live market price data.
+
+Scenario: Failed fetch of live market prices due to system maintenance
+Given I am a registered user
+And I am logged into the application
+When I request to fetch the live market prices
+And the system is under maintenance
+Then the system should display an error message "System under maintenance"
+And I should not receive the live market price data.

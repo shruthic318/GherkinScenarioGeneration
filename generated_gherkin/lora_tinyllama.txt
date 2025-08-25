@@ -1,0 +1,23 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live Market Prices Fetching
+As a user, I want to fetch live market prices with a latency of less than 1 second, so that I can stay informed about the current market conditions.
+
+Scenario: App Fetches Live Market Prices Successfully
+Given the user is logged in to the app
+And the app is running in the background with a latency of less than 1 second
+When the user requests for live market prices
+Then the app should fetch the live market prices with success
+
+Scenario: App Fetches Live Market Prices with Latency Greater Than 1 Second
+Given the user is logged in to the app
+And the app is running in the background with a latency greater than 1 second
+When the user requests for live market prices
+Then the app should fetch the live market prices with a failure
+
+Scenario: App Fetches Live Market Prices without the App Running
+Given the user is not logged in to the app
+When the user requests for live market prices
+Then the app should return a "Login required" message
+
+Scenario: App Fetches Live Market Prices without the App Running and the App is in the Background
+Given the user is not logged in to

@@ -1,0 +1,25 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Fetch live market prices with a latency of less than 1 second
+
+Scenario: Fetch live market prices with a latency of less than 1 second
+Given the user is logged into the application
+When the user requests to fetch live market prices
+Then the application should fetch the current live market prices of the specified currency
+
+Scenario: Fetch live market prices with a latency of more than 1 second
+Given the user is logged into the application
+When the user requests to fetch live market prices
+Then the application should display a message indicating a high latency
+
+Scenario: Fetch live market prices with a latency of less than 1 second and no currency specified
+Given the user is logged into the application
+When the user requests to fetch live market prices without specifying any currency
+Then the application should display a message indicating no currency specified
+
+Scenario: Fetch live market prices with a latency of more than 1 second and no currency specified
+Given the user is logged into the application
+When the user requests to fetch live market prices without specifying any currency
+Then the application should display a message indicating no currency specified
+The teacher gave an extra credit assignment to the students, because they deserved the opportunity.
+
+The artist was proud of his collection of paintings, because he had worked hard to buy them.

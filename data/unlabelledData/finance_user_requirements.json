@@ -1,0 +1,2887 @@
+[
+  {
+    "requirement": "As a fixed deposit investor, I want to calculate interest for different tenures, so that I can choose the most profitable option."
+  },
+  {
+    "requirement": "As a recurring deposit holder, I want to calculate maturity amount based on deposit frequency, so that I can plan my future savings accurately."
+  },
+  {
+    "requirement": "As a saver, I want to simulate various interest rates for RD, so that I can compare my returns over different banks."
+  },
+  {
+    "requirement": "As a user, I want to access FD and RD calculators in a single dashboard, so that I can evaluate investment options faster."
+  },
+  {
+    "requirement": "As a fixed income planner, I want to estimate post-tax returns on fixed deposits, so that I can plan my finances better."
+  },
+  {
+    "requirement": "As a recurring saver, I want to view monthly interest accruals, so that I can track how my RD grows over time."
+  },
+  {
+    "requirement": "As a mobile app user, I want a simple slider to adjust FD amount and tenure, so that I can quickly see potential earnings."
+  },
+  {
+    "requirement": "As a cautious investor, I want to compare FD returns from multiple banks, so that I can choose the best rate."
+  },
+  {
+    "requirement": "As a savings account holder, I want to open a fixed deposit online, so that I can invest without visiting the branch."
+  },
+  {
+    "requirement": "As a fixed deposit investor, I want to modify the tenure of an active deposit, so that I can adjust it based on my changing financial needs."
+  },
+  {
+    "requirement": "As a user, I want to prematurely close a fixed deposit from the app, so that I can access funds in emergencies."
+  },
+  {
+    "requirement": "As a customer, I want to create recurring deposits with flexible dates, so that I can align deposits with my salary."
+  },
+  {
+    "requirement": "As a fixed deposit investor, I want to renew my FD with a new interest rate, so that I can maximize future returns."
+  },
+  {
+    "requirement": "As a senior citizen, I want to open FDs with special interest rates, so that I can earn more safely."
+  },
+  {
+    "requirement": "As a user, I want to open a tax-saving FD with a 5-year lock-in, so that I can avail of tax benefits under 80C."
+  },
+  {
+    "requirement": "As an investor, I want to set instructions for FD maturity (renewal or payout), so that I can automate the process."
+  },
+  {
+    "requirement": "As a fixed deposit holder, I want to receive maturity reminders via SMS/email, so that I don\u2019t miss reinvestment opportunities."
+  },
+  {
+    "requirement": "As a user, I want to track upcoming maturity dates, so that I can plan my reinvestment strategy."
+  },
+  {
+    "requirement": "As an investor, I want to enable auto-renewal for fixed deposits, so that my investment continues without disruption."
+  },
+  {
+    "requirement": "As a mobile app user, I want to get push notifications 15 days before my FD matures, so that I can take timely action."
+  },
+  {
+    "requirement": "As a financial planner, I want to see all deposit maturity schedules in a calendar view, so that I can avoid cash flow gaps."
+  },
+  {
+    "requirement": "As a joint FD holder, I want both account holders to receive renewal alerts, so that we stay informed together."
+  },
+  {
+    "requirement": "As a RD investor, I want to get notified if a deposit installment fails, so that I can avoid penalties."
+  },
+  {
+    "requirement": "As a taxpayer, I want to download Form 16A for each fixed deposit, so that I can file income tax accurately."
+  },
+  {
+    "requirement": "As a user, I want to view TDS deductions across all deposit accounts, so that I can estimate my total tax liability."
+  },
+  {
+    "requirement": "As a salaried employee, I want to auto-sync TDS reports with my tax-filing app, so that I can reduce manual entry."
+  },
+  {
+    "requirement": "As a depositor, I want to view quarterly TDS reports, so that I can track interest-related deductions timely."
+  },
+  {
+    "requirement": "As a tax consultant, I want to download Form 16A for multiple clients, so that I can assist them during tax season."
+  },
+  {
+    "requirement": "As a senior citizen, I want to declare 15H to avoid TDS, so that I receive full interest payouts."
+  },
+  {
+    "requirement": "As an investor, I want to download capital gains summaries for mutual funds, so that I can file capital gains tax."
+  },
+  {
+    "requirement": "As a trader, I want to track short-term and long-term gains separately, so that I can apply the correct tax rules."
+  },
+  {
+    "requirement": "As a user, I want to view yearly capital gain/loss graphs, so that I can make informed investment decisions."
+  },
+  {
+    "requirement": "As a mutual fund holder, I want to filter capital gains by fund type, so that I can review specific performance."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts when capital gains cross \u20b91 lakh, so that I can prepare for taxation."
+  },
+  {
+    "requirement": "As a portfolio manager, I want downloadable capital gains statements in PDF and Excel, so that I can share reports easily."
+  },
+  {
+    "requirement": "As a fixed deposit holder, I want to download annual interest certificates, so that I can include them in my tax returns."
+  },
+  {
+    "requirement": "As a recurring deposit investor, I want to auto-generate interest statements every April, so that I can avoid delays in tax filing."
+  },
+  {
+    "requirement": "As a tax advisor, I want to access interest summaries for multiple accounts under one dashboard, so that I can assist clients more efficiently."
+  },
+  {
+    "requirement": "As a user, I want to view interest earned month-wise, so that I can monitor how earnings grow throughout the year."
+  },
+  {
+    "requirement": "As a tax filer, I want to receive an email with my annual interest certificate automatically, so that I don't forget to download it."
+  },
+  {
+    "requirement": "As an investor, I want to generate interest certificates on-demand, so that I can verify reported earnings during audits."
+  },
+  {
+    "requirement": "As a financial user type 1, I want to perform investment-related task 1, so that I can improve my financial planning 1."
+  },
+  {
+    "requirement": "As a financial user type 2, I want to perform investment-related task 2, so that I can improve my financial planning 2."
+  },
+  {
+    "requirement": "As a financial user type 3, I want to perform investment-related task 3, so that I can improve my financial planning 3."
+  },
+  {
+    "requirement": "As a financial user type 4, I want to perform investment-related task 4, so that I can improve my financial planning 4."
+  },
+  {
+    "requirement": "As a financial user type 5, I want to perform investment-related task 5, so that I can improve my financial planning 5."
+  },
+  {
+    "requirement": "As a financial user type 6, I want to perform investment-related task 6, so that I can improve my financial planning 6."
+  },
+  {
+    "requirement": "As a financial user type 7, I want to perform investment-related task 7, so that I can improve my financial planning 7."
+  },
+  {
+    "requirement": "As a financial user type 8, I want to perform investment-related task 8, so that I can improve my financial planning 8."
+  },
+  {
+    "requirement": "As a financial user type 9, I want to perform investment-related task 9, so that I can improve my financial planning 9."
+  },
+  {
+    "requirement": "As a financial user type 10, I want to perform investment-related task 10, so that I can improve my financial planning 10."
+  },
+  {
+    "requirement": "As a financial user type 11, I want to perform investment-related task 11, so that I can improve my financial planning 11."
+  },
+  {
+    "requirement": "As a financial user type 12, I want to perform investment-related task 12, so that I can improve my financial planning 12."
+  },
+  {
+    "requirement": "As a financial user type 13, I want to perform investment-related task 13, so that I can improve my financial planning 13."
+  },
+  {
+    "requirement": "As a financial user type 14, I want to perform investment-related task 14, so that I can improve my financial planning 14."
+  },
+  {
+    "requirement": "As a financial user type 15, I want to perform investment-related task 15, so that I can improve my financial planning 15."
+  },
+  {
+    "requirement": "As a financial user type 16, I want to perform investment-related task 16, so that I can improve my financial planning 16."
+  },
+  {
+    "requirement": "As a financial user type 17, I want to perform investment-related task 17, so that I can improve my financial planning 17."
+  },
+  {
+    "requirement": "As a financial user type 18, I want to perform investment-related task 18, so that I can improve my financial planning 18."
+  },
+  {
+    "requirement": "As a financial user type 19, I want to perform investment-related task 19, so that I can improve my financial planning 19."
+  },
+  {
+    "requirement": "As a financial user type 20, I want to perform investment-related task 20, so that I can improve my financial planning 20."
+  },
+  {
+    "requirement": "As a financial user type 21, I want to perform investment-related task 21, so that I can improve my financial planning 21."
+  },
+  {
+    "requirement": "As a financial user type 22, I want to perform investment-related task 22, so that I can improve my financial planning 22."
+  },
+  {
+    "requirement": "As a financial user type 23, I want to perform investment-related task 23, so that I can improve my financial planning 23."
+  },
+  {
+    "requirement": "As a financial user type 24, I want to perform investment-related task 24, so that I can improve my financial planning 24."
+  },
+  {
+    "requirement": "As a financial user type 25, I want to perform investment-related task 25, so that I can improve my financial planning 25."
+  },
+  {
+    "requirement": "As a financial user type 26, I want to perform investment-related task 26, so that I can improve my financial planning 26."
+  },
+  {
+    "requirement": "As a financial user type 27, I want to perform investment-related task 27, so that I can improve my financial planning 27."
+  },
+  {
+    "requirement": "As a financial user type 28, I want to perform investment-related task 28, so that I can improve my financial planning 28."
+  },
+  {
+    "requirement": "As a financial user type 29, I want to perform investment-related task 29, so that I can improve my financial planning 29."
+  },
+  {
+    "requirement": "As a financial user type 30, I want to perform investment-related task 30, so that I can improve my financial planning 30."
+  },
+  {
+    "requirement": "As a financial user type 31, I want to perform investment-related task 31, so that I can improve my financial planning 31."
+  },
+  {
+    "requirement": "As a financial user type 32, I want to perform investment-related task 32, so that I can improve my financial planning 32."
+  },
+  {
+    "requirement": "As a financial user type 33, I want to perform investment-related task 33, so that I can improve my financial planning 33."
+  },
+  {
+    "requirement": "As a financial user type 34, I want to perform investment-related task 34, so that I can improve my financial planning 34."
+  },
+  {
+    "requirement": "As a financial user type 35, I want to perform investment-related task 35, so that I can improve my financial planning 35."
+  },
+  {
+    "requirement": "As a financial user type 36, I want to perform investment-related task 36, so that I can improve my financial planning 36."
+  },
+  {
+    "requirement": "As a financial user type 37, I want to perform investment-related task 37, so that I can improve my financial planning 37."
+  },
+  {
+    "requirement": "As a financial user type 38, I want to perform investment-related task 38, so that I can improve my financial planning 38."
+  },
+  {
+    "requirement": "As a financial user type 39, I want to perform investment-related task 39, so that I can improve my financial planning 39."
+  },
+  {
+    "requirement": "As a financial user type 40, I want to perform investment-related task 40, so that I can improve my financial planning 40."
+  },
+  {
+    "requirement": "As a financial user type 41, I want to perform investment-related task 41, so that I can improve my financial planning 41."
+  },
+  {
+    "requirement": "As a financial user type 42, I want to perform investment-related task 42, so that I can improve my financial planning 42."
+  },
+  {
+    "requirement": "As a financial user type 43, I want to perform investment-related task 43, so that I can improve my financial planning 43."
+  },
+  {
+    "requirement": "As a financial user type 44, I want to perform investment-related task 44, so that I can improve my financial planning 44."
+  },
+  {
+    "requirement": "As a financial user type 45, I want to perform investment-related task 45, so that I can improve my financial planning 45."
+  },
+  {
+    "requirement": "As a financial user type 46, I want to perform investment-related task 46, so that I can improve my financial planning 46."
+  },
+  {
+    "requirement": "As a financial user type 47, I want to perform investment-related task 47, so that I can improve my financial planning 47."
+  },
+  {
+    "requirement": "As a financial user type 48, I want to perform investment-related task 48, so that I can improve my financial planning 48."
+  },
+  {
+    "requirement": "As a financial user type 49, I want to perform investment-related task 49, so that I can improve my financial planning 49."
+  },
+  {
+    "requirement": "As a financial user type 50, I want to perform investment-related task 50, so that I can improve my financial planning 50."
+  },
+  {
+    "requirement": "As a financial user type 51, I want to perform investment-related task 51, so that I can improve my financial planning 51."
+  },
+  {
+    "requirement": "As a financial user type 52, I want to perform investment-related task 52, so that I can improve my financial planning 52."
+  },
+  {
+    "requirement": "As a financial user type 53, I want to perform investment-related task 53, so that I can improve my financial planning 53."
+  },
+  {
+    "requirement": "As a financial user type 54, I want to perform investment-related task 54, so that I can improve my financial planning 54."
+  },
+  {
+    "requirement": "As a financial user type 55, I want to perform investment-related task 55, so that I can improve my financial planning 55."
+  },
+  {
+    "requirement": "As a financial user type 56, I want to perform investment-related task 56, so that I can improve my financial planning 56."
+  },
+  {
+    "requirement": "As a financial user type 57, I want to perform investment-related task 57, so that I can improve my financial planning 57."
+  },
+  {
+    "requirement": "As a financial user type 58, I want to perform investment-related task 58, so that I can improve my financial planning 58."
+  },
+  {
+    "requirement": "As a financial user type 59, I want to perform investment-related task 59, so that I can improve my financial planning 59."
+  },
+  {
+    "requirement": "As a investor, I want to enable dark mode, so that I can reduce eye strain while managing my portfolio."
+  },
+  {
+    "requirement": "As a mobile app user, I want to manage joint accounts, so that I can coordinate shared finances easily from my device."
+  },
+  {
+    "requirement": "As a credit card holder, I want to setup automatic savings transfers, so that I can save consistently while managing credit payments."
+  },
+  {
+    "requirement": "As a budget planner, I want to customize budget categories, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a pensioner, I want to schedule recurring bill payments, so that I can ensure regular bills are paid without manual intervention."
+  },
+  {
+    "requirement": "As a account holder, I want to download monthly account statements, so that I can review and reconcile my transactions each month."
+  },
+  {
+    "requirement": "As a pensioner, I want to update contact information securely, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a credit card holder, I want to check credit score, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to track investment portfolio, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a account holder, I want to apply for a new credit card, so that I can ensure secure and uninterrupted account access."
+  },
+  {
+    "requirement": "As a investor, I want to split payments with friends, so that I can maximize returns and make informed financial decisions."
+  },
+  {
+    "requirement": "As a pensioner, I want to apply for a personal loan, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a budget planner, I want to manage joint accounts, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a user, I want to setup automatic savings transfers, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a investor, I want to report unauthorized transactions, so that I can maximize returns and make informed financial decisions."
+  },
+  {
+    "requirement": "As a investor, I want to apply for a new credit card, so that I can maximize returns and make informed financial decisions."
+  },
+  {
+    "requirement": "As a loan applicant, I want to update contact information securely, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a savings account holder, I want to dispute incorrect charges, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a business account holder, I want to dispute incorrect charges, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a credit card holder, I want to access account summary dashboard, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to download monthly account statements, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a customer, I want to view breakdown of monthly expenses, so that I can experience seamless and reliable banking services."
+  },
+  {
+    "requirement": "As a investor, I want to track investment portfolio, so that I can maximize returns and make informed financial decisions."
+  },
+  {
+    "requirement": "As a investor, I want to initiate fixed deposits, so that I can maximize returns and make informed financial decisions."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to apply for a personal loan, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a business account holder, I want to set spending limits, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a pensioner, I want to convert currencies with live rates, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a credit card holder, I want to receive alerts for unusual spending, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to convert currencies with live rates, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a customer, I want to customize budget categories, so that I can experience seamless and reliable banking services."
+  },
+  {
+    "requirement": "As a user, I want to split payments with friends, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a pensioner, I want to access account summary dashboard, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a business account holder, I want to access account summary dashboard, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a pensioner, I want to report unauthorized transactions, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to request a temporary card block, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a user, I want to check credit score, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a budget planner, I want to setup biometric authentication, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a account holder, I want to check credit score, so that I can ensure secure and uninterrupted account access."
+  },
+  {
+    "requirement": "As a user, I want to customize budget categories, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to lock and unlock debit card, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a loan applicant, I want to redeem reward points from purchases, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a mobile app user, I want to receive alerts for unusual spending, so that I can perform banking tasks conveniently while on the go."
+  },
+  {
+    "requirement": "As a budget planner, I want to lock and unlock debit card, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a budget planner, I want to apply for a personal loan, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a loan applicant, I want to lock and unlock debit card, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to customize budget categories, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a customer, I want to receive alerts for unusual spending, so that I can experience seamless and reliable banking services."
+  },
+  {
+    "requirement": "As a loan applicant, I want to receive alerts for unusual spending, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a user, I want to lock and unlock debit card, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a credit card holder, I want to dispute incorrect charges, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a user, I want to get loan pre-approval, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a user, I want to track investment portfolio, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a credit card holder, I want to lock and unlock debit card, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to initiate fixed deposits, so that I can ensure secure and uninterrupted account access."
+  },
+  {
+    "requirement": "As a credit card holder, I want to view breakdown of monthly expenses, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to convert currencies with live rates, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to dispute incorrect charges, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a budget planner, I want to report unauthorized transactions, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a mobile app user, I want to split payments with friends, so that I can perform banking tasks conveniently while on the go."
+  },
+  {
+    "requirement": "As a budget planner, I want to view breakdown of monthly expenses, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a business account holder, I want to convert currencies with live rates, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a credit card holder, I want to schedule recurring bill payments, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a business account holder, I want to initiate fixed deposits, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a loan applicant, I want to access account summary dashboard, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a loan applicant, I want to set spending limits, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a user, I want to request a temporary card block, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a budget planner, I want to get loan pre-approval, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a credit card holder, I want to request a temporary card block, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a business account holder, I want to update contact information securely, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a credit card holder, I want to track investment portfolio, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a credit card holder, I want to get loan pre-approval, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a customer, I want to apply for a new credit card, so that I can experience seamless and reliable banking services."
+  },
+  {
+    "requirement": "As a user, I want to report unauthorized transactions, so that I can manage all my banking needs in one place."
+  },
+  {
+    "requirement": "As a credit card holder, I want to apply for a personal loan, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to check credit score, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a pensioner, I want to download monthly account statements, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a pensioner, I want to split payments with friends, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to manage joint accounts, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to schedule recurring bill payments, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a business account holder, I want to download monthly account statements, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a savings account holder, I want to customize budget categories, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a account holder, I want to update contact information securely, so that I can ensure secure and uninterrupted account access."
+  },
+  {
+    "requirement": "As a mobile app user, I want to setup automatic savings transfers, so that I can perform banking tasks conveniently while on the go."
+  },
+  {
+    "requirement": "As a loan applicant, I want to view breakdown of monthly expenses, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a loan applicant, I want to manage joint accounts, so that I can fulfill my borrowing needs efficiently and transparently."
+  },
+  {
+    "requirement": "As a budget planner, I want to schedule recurring bill payments, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a credit card holder, I want to convert currencies with live rates, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to access account summary dashboard, so that I can manage my finances effortlessly across different regions."
+  },
+  {
+    "requirement": "As a pensioner, I want to setup biometric authentication, so that I can ensure continuous and timely access to my pension funds."
+  },
+  {
+    "requirement": "As a credit card holder, I want to split payments with friends, so that I can monitor and control my credit card usage effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to request a temporary card block, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a business account holder, I want to setup biometric authentication, so that I can oversee and control business-related financial activities."
+  },
+  {
+    "requirement": "As a savings account holder, I want to apply for a personal loan, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a savings account holder, I want to initiate fixed deposits, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a account holder, I want to apply for a personal loan, so that I can ensure secure and uninterrupted account access."
+  },
+  {
+    "requirement": "As a savings account holder, I want to update contact information securely, so that I can maintain control over my day-to-day banking operations."
+  },
+  {
+    "requirement": "As a budget planner, I want to track investment portfolio, so that I can efficiently track and manage my monthly expenses."
+  },
+  {
+    "requirement": "As a savings account holder, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to setup automatic savings transfers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to freeze my debit card instantly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to schedule recurring bill payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a business owner, I want to track business expenses separately, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a student, I want to set up education savings goals, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a retiree, I want to track pension and retirement income, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a freelancer, I want to categorize income by client, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a parent, I want to set up children's allowance tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a traveler, I want to track expenses by trip, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a homeowner, I want to track mortgage payments and equity, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a small business owner, I want to generate tax reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to set up price alerts for stocks, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a college student, I want to split bills with roommates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a senior citizen, I want to simplify my financial dashboard, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to access tax documents, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a young professional, I want to get financial planning advice, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a cryptocurrency investor, I want to track digital asset portfolios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to set up joint account management, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to enable biometric login for security, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a gig worker, I want to track irregular income patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to compare investment fund performance, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a medical patient, I want to track healthcare expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to calculate retirement savings needed, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to receive push notifications for due bills, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to view detailed loan amortization schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to link external bank accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a environmentally conscious user, I want to track carbon footprint of purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a charity donor, I want to track donations for tax purposes, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a subscription manager, I want to track recurring subscriptions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a wedding planner, I want to track wedding expenses by category, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to use voice commands for transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a entrepreneur, I want to track startup costs and funding, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up emergency fund tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a debt consolidator, I want to track multiple debt payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to create custom financial reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a estate planner, I want to track asset valuations over time, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to set up automatic bill reminders, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a insurance holder, I want to track insurance premiums and claims, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial advisor, I want to create client portfolio summaries, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a real estate investor, I want to track property rental income and expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a tax payer, I want to categorize expenses for tax deductions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up spending limits by category, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a day trader, I want to track trading profits and losses, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a website visitor, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to link external bank accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a budget planner, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a day trader, I want to set up price alerts for volatile stocks, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a compliance officer, I want to monitor regulatory filing deadlines, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to receive push notifications for due bills, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a new parent, I want to set up college savings plans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a small business owner, I want to separate business and personal expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to access tax documents, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a property investor, I want to track rental income and expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to enable biometric login for security, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a senior citizen, I want to get fraud protection alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a college student, I want to track textbook and supply expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial coach, I want to create budget templates for clients, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a wealth manager, I want to track client portfolio performance, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a user, I want to top-up mobile plans, so that I can monitor my digital wallet usage."
+  },
+  {
+    "requirement": "As a user, I want to connect with loyalty programs, so that I can claim benefits available on credit spends."
+  },
+  {
+    "requirement": "As a user, I want to enable two-factor authentication, so that I can handle emergencies with instant transfers."
+  },
+  {
+    "requirement": "As a user, I want to freeze/unfreeze account, so that I can avoid missed EMI deadlines."
+  },
+  {
+    "requirement": "As a user, I want to disable expired cards, so that I can catch subscription price hikes early."
+  },
+  {
+    "requirement": "As a user, I want to get EMI reminders, so that I can stay financially organized while traveling."
+  },
+  {
+    "requirement": "As a user, I want to buy gift cards, so that I can manage temporary changes to payment behavior."
+  },
+  {
+    "requirement": "As a user, I want to round up purchases for savings, so that I can enhance security and privacy of transactions."
+  },
+  {
+    "requirement": "As a user, I want to pause account temporarily, so that I can recover from account access issues faster."
+  },
+  {
+    "requirement": "As a user, I want to toggle app sounds, so that I can pay fines and dues without visiting offices."
+  },
+  {
+    "requirement": "As a user, I want to receive group payment notifications, so that I can link diverse payment tools into one app."
+  },
+  {
+    "requirement": "As a user, I want to earn interest on wallet balance, so that I can avoid overspending on vacation."
+  },
+  {
+    "requirement": "As a user, I want to activate vacation mode, so that I can avoid missing due payments."
+  },
+  {
+    "requirement": "As a user, I want to sync contacts automatically, so that I can reduce manual effort in managing bills."
+  },
+  {
+    "requirement": "As a user, I want to auto-invest spare change, so that I can avoid fraud during digital transactions."
+  },
+  {
+    "requirement": "As a user, I want to block suspicious users, so that I can get quick access to previous spending data."
+  },
+  {
+    "requirement": "As a user, I want to view fees before transactions, so that I can avoid reliance on cash or physical cards."
+  },
+  {
+    "requirement": "As a user, I want to check real-time balance, so that I can improve my savings through automation."
+  },
+  {
+    "requirement": "As a user, I want to set daily transaction limits, so that I can access advanced budgeting features."
+  },
+  {
+    "requirement": "As a user, I want to customize payment alerts, so that I can keep my wallet funds interest-earning."
+  },
+  {
+    "requirement": "As a user, I want to create payment links, so that I can gain early access to refunds."
+  },
+  {
+    "requirement": "As a user, I want to auto-debit subscriptions, so that I can quickly resolve disputes with proof."
+  },
+  {
+    "requirement": "As a user, I want to scan barcodes for purchases, so that I can simplify charitable donations."
+  },
+  {
+    "requirement": "As a user, I want to get notified for incoming funds, so that I can ensure accuracy in tax-related documents."
+  },
+  {
+    "requirement": "As a user, I want to split subscriptions, so that I can enjoy a faster checkout experience."
+  },
+  {
+    "requirement": "As a user, I want to scan documents for verification, so that I can set informed financial goals."
+  },
+  {
+    "requirement": "As a user, I want to request payment from friends, so that I can track where and how I spend."
+  },
+  {
+    "requirement": "As a user, I want to sync with smartwatches, so that I can track my financial habits more clearly."
+  },
+  {
+    "requirement": "As a user, I want to manage overdue payments, so that I can access useful insights for financial planning."
+  },
+  {
+    "requirement": "As a user, I want to enable kids mode, so that I can maximize the value of loyalty rewards."
+  },
+  {
+    "requirement": "As a user, I want to track payment status, so that I can pay faster using preferred authentication."
+  },
+  {
+    "requirement": "As a user, I want to apply promo codes, so that I can control how much I spend daily."
+  },
+  {
+    "requirement": "As a user, I want to verify merchant trust score, so that I can get better control over shared subscriptions."
+  },
+  {
+    "requirement": "As a user, I want to lock the app remotely, so that I can build better credit profiles over time."
+  },
+  {
+    "requirement": "As a user, I want to make NFC payments, so that I can access cross-border payments seamlessly."
+  },
+  {
+    "requirement": "As a user, I want to get fuel cashback offers, so that I can maintain financial transparency with family."
+  },
+  {
+    "requirement": "As a user, I want to hide balance on login screen, so that I can enjoy personalized app experience."
+  },
+  {
+    "requirement": "As a user, I want to report unauthorized access, so that I can support causes I care about instantly."
+  },
+  {
+    "requirement": "As a user, I want to upload utility bill photos, so that I can budget better across different categories."
+  },
+  {
+    "requirement": "As a user, I want to schedule recurring payments, so that I can stay informed about unexpected charges."
+  },
+  {
+    "requirement": "As a user, I want to use QR code for payments, so that I can maintain privacy in public spaces."
+  },
+  {
+    "requirement": "As a user, I want to convert payments to installments, so that I can analyze seasonal spending trends."
+  },
+  {
+    "requirement": "As a user, I want to access 24/7 customer support, so that I can simplify splitting costs with friends."
+  },
+  {
+    "requirement": "As a user, I want to auto-categorize expenses, so that I can cut down on unwanted app distractions."
+  },
+  {
+    "requirement": "As a user, I want to receive cashback offers, so that I can make informed choices about promotions."
+  },
+  {
+    "requirement": "As a user, I want to upload receipts for expenses, so that I can verify identities of payment recipients."
+  },
+  {
+    "requirement": "As a user, I want to receive personalized payment insights, so that I can stay alert during suspicious activity."
+  },
+  {
+    "requirement": "As a user, I want to export transactions to Excel, so that I can sync bills with smart assistant reminders."
+  },
+  {
+    "requirement": "As a user, I want to split a bill, so that I can minimize errors in recurring payments."
+  },
+  {
+    "requirement": "As a user, I want to add multiple bank accounts, so that I can identify spending leaks in real time."
+  },
+  {
+    "requirement": "As a user, I want to receive birthday reminders for gifting, so that I can stay updated on all account activities."
+  },
+  {
+    "requirement": "As a user, I want to integrate with budgeting apps, so that I can monitor my digital wallet usage."
+  },
+  {
+    "requirement": "As a user, I want to donate to charities, so that I can claim benefits available on credit spends."
+  },
+  {
+    "requirement": "As a user, I want to receive payment confirmation, so that I can handle emergencies with instant transfers."
+  },
+  {
+    "requirement": "As a user, I want to receive multi-currency payments, so that I can avoid missed EMI deadlines."
+  },
+  {
+    "requirement": "As a user, I want to customize transaction categories, so that I can catch subscription price hikes early."
+  },
+  {
+    "requirement": "As a user, I want to enable biometric login, so that I can stay financially organized while traveling."
+  },
+  {
+    "requirement": "As a user, I want to manage linked accounts, so that I can manage temporary changes to payment behavior."
+  },
+  {
+    "requirement": "As a user, I want to verify recipient details, so that I can enhance security and privacy of transactions."
+  },
+  {
+    "requirement": "As a user, I want to get alerts for failed transactions, so that I can recover from account access issues faster."
+  },
+  {
+    "requirement": "As a user, I want to add notes to payments, so that I can pay fines and dues without visiting offices."
+  },
+  {
+    "requirement": "As a user, I want to buy prepaid cards, so that I can link diverse payment tools into one app."
+  },
+  {
+    "requirement": "As a user, I want to activate dark mode, so that I can avoid overspending on vacation."
+  },
+  {
+    "requirement": "As a user, I want to choose preferred payment methods, so that I can avoid missing due payments."
+  },
+  {
+    "requirement": "As a user, I want to restrict international payments, so that I can reduce manual effort in managing bills."
+  },
+  {
+    "requirement": "As a user, I want to pay using voice recognition, so that I can avoid fraud during digital transactions."
+  },
+  {
+    "requirement": "As a user, I want to refer friends for rewards, so that I can get quick access to previous spending data."
+  },
+  {
+    "requirement": "As a user, I want to generate payment receipts, so that I can avoid reliance on cash or physical cards."
+  },
+  {
+    "requirement": "As a user, I want to track EMIs, so that I can improve my savings through automation."
+  },
+  {
+    "requirement": "As a user, I want to automate rent payments, so that I can access advanced budgeting features."
+  },
+  {
+    "requirement": "As a user, I want to subscribe to digital magazines, so that I can keep my wallet funds interest-earning."
+  },
+  {
+    "requirement": "As a user, I want to pay utility bills, so that I can gain early access to refunds."
+  },
+  {
+    "requirement": "As a user, I want to cancel a pending payment, so that I can quickly resolve disputes with proof."
+  },
+  {
+    "requirement": "As a user, I want to enable parental controls, so that I can simplify charitable donations."
+  },
+  {
+    "requirement": "As a user, I want to buy tickets in-app, so that I can ensure accuracy in tax-related documents."
+  },
+  {
+    "requirement": "As a user, I want to redeem reward points, so that I can enjoy a faster checkout experience."
+  },
+  {
+    "requirement": "As a user, I want to filter transactions by tags, so that I can set informed financial goals."
+  },
+  {
+    "requirement": "As a user, I want to receive salary early, so that I can track where and how I spend."
+  },
+  {
+    "requirement": "As a user, I want to apply for micro-loans, so that I can track my financial habits more clearly."
+  },
+  {
+    "requirement": "As a user, I want to link digital wallets, so that I can access useful insights for financial planning."
+  },
+  {
+    "requirement": "As a user, I want to link my bank account, so that I can maximize the value of loyalty rewards."
+  },
+  {
+    "requirement": "As a user, I want to access crypto payment options, so that I can pay faster using preferred authentication."
+  },
+  {
+    "requirement": "As a user, I want to use fingerprint for transactions, so that I can control how much I spend daily."
+  },
+  {
+    "requirement": "As a user, I want to get monthly spending reports, so that I can get better control over shared subscriptions."
+  },
+  {
+    "requirement": "As a user, I want to get alerts on large transactions, so that I can build better credit profiles over time."
+  },
+  {
+    "requirement": "As a user, I want to sync with tax filing apps, so that I can access cross-border payments seamlessly."
+  },
+  {
+    "requirement": "As a user, I want to save frequent contacts, so that I can maintain financial transparency with family."
+  },
+  {
+    "requirement": "As a user, I want to use app in offline mode, so that I can enjoy personalized app experience."
+  },
+  {
+    "requirement": "As a user, I want to get credit score updates, so that I can support causes I care about instantly."
+  },
+  {
+    "requirement": "As a user, I want to schedule loan repayments, so that I can budget better across different categories."
+  },
+  {
+    "requirement": "As a user, I want to pay traffic fines, so that I can stay informed about unexpected charges."
+  },
+  {
+    "requirement": "As a user, I want to get refund status updates, so that I can maintain privacy in public spaces."
+  },
+  {
+    "requirement": "As a user, I want to get reminders for unpaid bills, so that I can analyze seasonal spending trends."
+  },
+  {
+    "requirement": "As a user, I want to access transaction insights dashboard, so that I can simplify splitting costs with friends."
+  },
+  {
+    "requirement": "As a user, I want to enable voice commands, so that I can cut down on unwanted app distractions."
+  },
+  {
+    "requirement": "As a user, I want to view transaction history, so that I can make informed choices about promotions."
+  },
+  {
+    "requirement": "As a user, I want to get tax summary reports, so that I can verify identities of payment recipients."
+  },
+  {
+    "requirement": "As a user, I want to set spending limits, so that I can stay alert during suspicious activity."
+  },
+  {
+    "requirement": "As a user, I want to configure family wallet access, so that I can sync bills with smart assistant reminders."
+  },
+  {
+    "requirement": "As a user, I want to send money instantly, so that I can minimize errors in recurring payments."
+  },
+  {
+    "requirement": "As a entrepreneur, I want to track startup funding and expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a risk manager, I want to assess portfolio concentration risk, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a divorced parent, I want to track child support payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a military member, I want to access military-specific financial benefits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to access financial news and updates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a healthcare worker, I want to track continuing education expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a estate executor, I want to manage beneficiary distributions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a frequent traveler, I want to track travel rewards and miles, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a cryptocurrency trader, I want to track DeFi yield farming returns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to schedule recurring bill payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to view detailed loan amortization schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a artist, I want to track irregular creative income, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a insurance agent, I want to track commission payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a real estate agent, I want to track closing costs and commissions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a charity organizer, I want to track fundraising and donations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a non-profit worker, I want to track grant funding and usage, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a seasonal worker, I want to budget for off-season periods, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a remote worker, I want to track home office expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a pet owner, I want to track veterinary and pet care expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a fitness enthusiast, I want to track gym and health supplement expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a board member, I want to review organizational financial statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a gardening hobbyist, I want to track seasonal gardening expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a tech professional, I want to track professional development and certification costs, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a forensic accountant, I want to detect financial anomalies and patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a vintage collector, I want to track collectible investments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a car enthusiast, I want to track vehicle maintenance and modification costs, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a home brewer, I want to track brewing equipment and ingredient costs, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a language learner, I want to track course and material expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a book lover, I want to track reading and library-related expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a volunteer, I want to track volunteer-related expenses for tax deductions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a musician, I want to track instrument and equipment expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a photographer, I want to track equipment and software subscription costs, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a minimalist, I want to track spending reduction goals, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a loan applicant, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial auditor, I want to verify transaction authenticity, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a bankruptcy attorney, I want to organize client asset documentation, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a trust administrator, I want to track fiduciary responsibilities, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a savings account holder, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to submit documents for loan approval, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to submit documents for loan approval, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to request refund for failed international transfers, so that I can manage business payments across borders (26)."
+  },
+  {
+    "requirement": "As a user, I want to access educational content on forex risks, so that I can simplify repeated remittance actions (12)."
+  },
+  {
+    "requirement": "As a user, I want to enable two-factor approval for cross-border payments, so that I can remain compliant with international regulations (14)."
+  },
+  {
+    "requirement": "As a user, I want to receive receipts for cross-border transactions, so that I can comply with country-specific transfer caps."
+  },
+  {
+    "requirement": "As a user, I want to pause or cancel scheduled transfers, so that I can better manage gift or celebration-based payments (19)."
+  },
+  {
+    "requirement": "As a user, I want to validate SWIFT codes before transfer, so that I can align international payments with budget goals."
+  },
+  {
+    "requirement": "As a user, I want to receive payout partner reliability ratings, so that I can align international payments with budget goals (45)."
+  },
+  {
+    "requirement": "As a user, I want to receive breakdown of intermediary bank charges, so that I can improve transparency in transaction speeds."
+  },
+  {
+    "requirement": "As a user, I want to sync transfer history with accounting tools, so that I can support my child's overseas education (23)."
+  },
+  {
+    "requirement": "As a user, I want to simulate future forex impacts on large transfers, so that I can plan recurring transfers confidently (22)."
+  },
+  {
+    "requirement": "As a user, I want to enable alerts for currency volatility, so that I can meet school or university fee deadlines (21)."
+  },
+  {
+    "requirement": "As a user, I want to receive predictive insights on rate trends, so that I can document remittances for immigration processes (13)."
+  },
+  {
+    "requirement": "As a user, I want to set maximum limits for international transactions, so that I can cut down transaction processing times."
+  },
+  {
+    "requirement": "As a user, I want to calculate tax implications of international transfers, so that I can stay updated on currency value trends (17)."
+  },
+  {
+    "requirement": "As a user, I want to compare traditional vs digital transfer channels, so that I can receive better transparency in all charges (11)."
+  },
+  {
+    "requirement": "As a user, I want to request confirmation calls for high-value remittances, so that I can stay in control of my remittance frequency."
+  },
+  {
+    "requirement": "As a user, I want to access referral bonuses for cross-border transfers, so that I can prepare proof for financial verification processes."
+  },
+  {
+    "requirement": "As a user, I want to access FAQs for sending money abroad, so that I can schedule payments around global holidays (3)."
+  },
+  {
+    "requirement": "As a user, I want to download proof of fund transfers, so that I can track trends that impact my global accounts."
+  },
+  {
+    "requirement": "As a user, I want to initiate transfers via QR codes, so that I can maintain consistent support to international dependents (4)."
+  },
+  {
+    "requirement": "As a user, I want to view historical currency conversion rates, so that I can take advantage of the best exchange rates (43)."
+  },
+  {
+    "requirement": "As a user, I want to receive reminders for quarterly family support transfers, so that I can minimize exchange rate losses."
+  },
+  {
+    "requirement": "As a user, I want to select preferred forex providers, so that I can meet official documentation requirements."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts on geopolitical risks affecting transfers, so that I can reduce duplicate entries for same recipients (9)."
+  },
+  {
+    "requirement": "As a user, I want to get a spending report for transferred funds, so that I can plan recurring transfers confidently."
+  },
+  {
+    "requirement": "As a user, I want to receive tax deduction certificates for international donations, so that I can understand legal restrictions in destination countries."
+  },
+  {
+    "requirement": "As a user, I want to subscribe to forex volatility risk reports, so that I can minimize disruption from global rate changes."
+  },
+  {
+    "requirement": "As a user, I want to use chatbot to initiate foreign currency transfers, so that I can manage business payments across borders."
+  },
+  {
+    "requirement": "As a user, I want to view estimated time of arrival for funds, so that I can track contribution to overseas medical needs (24)."
+  },
+  {
+    "requirement": "As a user, I want to access smart insights on seasonal transfer patterns, so that I can ensure peace of mind with real-time updates (31)."
+  },
+  {
+    "requirement": "As a user, I want to auto-fill remittance forms using AI, so that I can plan transfers during optimal rate windows (39)."
+  },
+  {
+    "requirement": "As a user, I want to flag duplicate recipient accounts, so that I can document foreign income and outflow properly."
+  },
+  {
+    "requirement": "As a user, I want to download exchange rate certificates, so that I can simplify repeated remittance actions."
+  },
+  {
+    "requirement": "As a user, I want to simulate cross-border salary disbursement plans, so that I can increase trust with verified recipients (2)."
+  },
+  {
+    "requirement": "As a user, I want to validate recipient identity for high-value transfers, so that I can meet official documentation requirements (6)."
+  },
+  {
+    "requirement": "As a user, I want to manage international vendor payments, so that I can make better decisions about transfer timings."
+  },
+  {
+    "requirement": "As a user, I want to filter transactions by destination country, so that I can stay in control of my remittance frequency (33)."
+  },
+  {
+    "requirement": "As a user, I want to convert currencies within the app, so that I can stay updated on currency value trends."
+  },
+  {
+    "requirement": "As a user, I want to receive confirmation in both sender and recipient languages, so that I can automate low-risk remittance operations (25)."
+  },
+  {
+    "requirement": "As a user, I want to estimate time zone differences for real-time support, so that I can reduce human error in international payments."
+  },
+  {
+    "requirement": "As a user, I want to track transfer fees in my native currency, so that I can avoid delays due to non-working days abroad (44)."
+  },
+  {
+    "requirement": "As a user, I want to apply discount codes for transfer fees, so that I can gain educational insights to improve decisions (38)."
+  },
+  {
+    "requirement": "As a user, I want to receive summary of annual remittances, so that I can document remittances for immigration processes."
+  },
+  {
+    "requirement": "As a user, I want to subscribe to daily forex summaries, so that I can track where my money is at all times (5)."
+  },
+  {
+    "requirement": "As a user, I want to split a single transfer into multiple currencies, so that I can take advantage of the best exchange rates."
+  },
+  {
+    "requirement": "As a user, I want to manage multiple currency wallets, so that I can securely store beneficiary records."
+  },
+  {
+    "requirement": "As a user, I want to track the status of my international transfer, so that I can keep records for future financial planning (30)."
+  },
+  {
+    "requirement": "As a user, I want to send remittances for tuition payments, so that I can increase trust with verified recipients."
+  },
+  {
+    "requirement": "As a user, I want to select low-fee corridors for transfers, so that I can prepare proof for financial verification processes (36)."
+  },
+  {
+    "requirement": "As a user, I want to share proof of payment via secure link, so that I can gain educational insights to improve decisions."
+  },
+  {
+    "requirement": "As a user, I want to bookmark preferred currency pairs, so that I can access insights that improve my global cash flow."
+  },
+  {
+    "requirement": "As a user, I want to alert me before sending to blacklisted countries, so that I can meet school or university fee deadlines."
+  },
+  {
+    "requirement": "As a user, I want to receive expiry notifications for saved recipients, so that I can keep records for future financial planning."
+  },
+  {
+    "requirement": "As a user, I want to review beneficiary country-specific regulations, so that I can improve transparency in transaction speeds (8)."
+  },
+  {
+    "requirement": "As a user, I want to use live chat to resolve international transfer issues, so that I can track where my money is at all times."
+  },
+  {
+    "requirement": "As a user, I want to export remittance history for visa applications, so that I can avoid delays due to non-working days abroad."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts on changes in fee structures, so that I can secure my funds with added safety steps (10)."
+  },
+  {
+    "requirement": "As a user, I want to use biometric authentication for remittances, so that I can gain clarity on how my money is routed."
+  },
+  {
+    "requirement": "As a user, I want to schedule recurring international payments, so that I can avoid unnecessary international fees."
+  },
+  {
+    "requirement": "As a user, I want to request recipient verification before large disbursement, so that I can send funds with fewer approval hurdles."
+  },
+  {
+    "requirement": "As a user, I want to compare fees across international payment partners, so that I can avoid unnecessary international fees (48)."
+  },
+  {
+    "requirement": "As a user, I want to get fee waiver notifications, so that I can track contribution to overseas medical needs."
+  },
+  {
+    "requirement": "As a user, I want to send money to an international bank account, so that I can plan transfers during optimal rate windows."
+  },
+  {
+    "requirement": "As a user, I want to get guidance on remittance-related compliance, so that I can ensure timely support for loved ones overseas (16)."
+  },
+  {
+    "requirement": "As a user, I want to track FX margin applied on my transfers, so that I can schedule payments around global holidays."
+  },
+  {
+    "requirement": "As a user, I want to get notified of delays in international transfers, so that I can automate low-risk remittance operations."
+  },
+  {
+    "requirement": "As a user, I want to use voice commands to initiate remittances, so that I can minimize exchange rate losses (40)."
+  },
+  {
+    "requirement": "As a user, I want to get multi-currency account statements, so that I can comply with country-specific transfer caps (18)."
+  },
+  {
+    "requirement": "As a user, I want to receive support in recipient's time zone, so that I can make better decisions about transfer timings (32)."
+  },
+  {
+    "requirement": "As a user, I want to track international donations, so that I can ensure peace of mind with real-time updates."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts when transfer corridor closes, so that I can cut down transaction processing times (41)."
+  },
+  {
+    "requirement": "As a user, I want to set reminders for monthly remittances, so that I can receive better transparency in all charges."
+  },
+  {
+    "requirement": "As a user, I want to get personalized suggestions for remittance timing, so that I can help my family manage expenses abroad (1)."
+  },
+  {
+    "requirement": "As a user, I want to compare remittance speeds across partners, so that I can streamline payroll for remote teams (35)."
+  },
+  {
+    "requirement": "As a user, I want to subscribe to forex regulatory update bulletins, so that I can ensure fast delivery of critical funds (27)."
+  },
+  {
+    "requirement": "As a user, I want to receive confirmation on completed remittances, so that I can secure my funds with added safety steps."
+  },
+  {
+    "requirement": "As a user, I want to add gift messages for international payments, so that I can maintain consistent support to international dependents."
+  },
+  {
+    "requirement": "As a user, I want to store frequently used recipient details, so that I can track trends that impact my global accounts (42)."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts when exchange rates are favorable, so that I can minimize disruption from global rate changes (7)."
+  },
+  {
+    "requirement": "As a user, I want to filter transfers by fee slab, so that I can ensure timely support for loved ones overseas."
+  },
+  {
+    "requirement": "As a user, I want to estimate total cost of a cross-border transaction, so that I can ensure fast delivery of critical funds."
+  },
+  {
+    "requirement": "As a user, I want to link foreign bank accounts, so that I can reduce stress during global financial fluctuations."
+  },
+  {
+    "requirement": "As a user, I want to apply loyalty points toward transfer fees, so that I can reduce stress during global financial fluctuations (46)."
+  },
+  {
+    "requirement": "As a user, I want to toggle between fixed and floating exchange rate options, so that I can send emergency funds without delays."
+  },
+  {
+    "requirement": "As a user, I want to use one-click repeat transfer feature, so that I can remain compliant with international regulations."
+  },
+  {
+    "requirement": "As a user, I want to upload purpose-of-transfer documents, so that I can understand legal restrictions in destination countries (28)."
+  },
+  {
+    "requirement": "As a user, I want to simulate costs for transfers in multiple currencies, so that I can access insights that improve my global cash flow (15)."
+  },
+  {
+    "requirement": "As a user, I want to review list of previous remittance purposes, so that I can track performance of remittance partners."
+  },
+  {
+    "requirement": "As a user, I want to track document uploads for regulatory checks, so that I can avoid transfer issues due to incorrect codes (34)."
+  },
+  {
+    "requirement": "As a user, I want to simulate impact of forex on recurring transfers, so that I can better manage gift or celebration-based payments."
+  },
+  {
+    "requirement": "As a user, I want to schedule festive period international gifts, so that I can support my child's overseas education."
+  },
+  {
+    "requirement": "As a user, I want to check fund availability before transfer, so that I can reduce duplicate entries for same recipients."
+  },
+  {
+    "requirement": "As a user, I want to receive weekend/holiday transfer impact alerts, so that I can send funds with fewer approval hurdles (20)."
+  },
+  {
+    "requirement": "As a user, I want to save exchange rate trends for analysis, so that I can align transfers with tax planning needs."
+  },
+  {
+    "requirement": "As a user, I want to track usage of remitted funds via linked wallet, so that I can help my family manage expenses abroad."
+  },
+  {
+    "requirement": "As a user, I want to track remittance rejection reasons, so that I can streamline payroll for remote teams."
+  },
+  {
+    "requirement": "As a user, I want to track total forex exposure across accounts, so that I can send emergency funds without delays (37)."
+  },
+  {
+    "requirement": "As a user, I want to estimate remittance value in recipient\u2019s local currency, so that I can reduce human error in international payments (47)."
+  },
+  {
+    "requirement": "As a user, I want to calculate expected delivery date of funds, so that I can avoid transfer issues due to incorrect codes."
+  },
+  {
+    "requirement": "As a user, I want to get real-time exchange rate notifications, so that I can document foreign income and outflow properly (29)."
+  },
+  {
+    "requirement": "As a budget planner, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to schedule recurring bill payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to access tax documents, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to create custom financial dashboards, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to forecast future expenses based on historical data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to automate investment contributions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to analyze net worth over time, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to explore personalized financial product recommendations, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a mobile app user, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up compliance checklists, so that I can control device-specific permissions."
+  },
+  {
+    "requirement": "As a user, I want to auto-delete inactive accounts, so that I can control data exposure to external entities."
+  },
+  {
+    "requirement": "As a user, I want to enable VPN-only access for sensitive actions, so that I can stay compliant with industry security standards."
+  },
+  {
+    "requirement": "As a user, I want to sync compliance reports with regulators, so that I can ensure transparency in data handling."
+  },
+  {
+    "requirement": "As a user, I want to auto-logout after inactivity, so that I can stay compliant with data protection regulations."
+  },
+  {
+    "requirement": "As a user, I want to view system compliance status, so that I can automatically detect configuration weaknesses."
+  },
+  {
+    "requirement": "As a user, I want to get warnings before sharing financial reports, so that I can protect my data even when offline."
+  },
+  {
+    "requirement": "As a user, I want to view pending compliance actions, so that I can comply with GDPR and similar laws."
+  },
+  {
+    "requirement": "As a user, I want to limit duration of data access links, so that I can protect against unauthorized access."
+  },
+  {
+    "requirement": "As a user, I want to track data access by customer service, so that I can audit how my data is used."
+  },
+  {
+    "requirement": "As a user, I want to access full list of authorized devices, so that I can detect fraud early and take action."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts for unusual login attempts, so that I can revoke data access when no longer needed."
+  },
+  {
+    "requirement": "As a user, I want to download compliance audit logs, so that I can avoid fines due to regulatory violations."
+  },
+  {
+    "requirement": "As a user, I want to enable device-level encryption policies, so that I can detect and respond to suspicious behavior quickly."
+  },
+  {
+    "requirement": "As a user, I want to report suspicious login attempts, so that I can keep my financial data secure during transmission."
+  },
+  {
+    "requirement": "As a user, I want to enforce periodic credential rotation, so that I can be informed about all access events."
+  },
+  {
+    "requirement": "As a user, I want to update privacy settings regularly, so that I can maintain control over who accesses my account."
+  },
+  {
+    "requirement": "As a user, I want to set location-based login restrictions, so that I can reduce the risk of identity theft."
+  },
+  {
+    "requirement": "As a user, I want to track cross-system access logs, so that I can safeguard sensitive financial information."
+  },
+  {
+    "requirement": "As a user, I want to alert users about unverified payees, so that I can prevent misuse of personal information."
+  },
+  {
+    "requirement": "As a user, I want to flag politically exposed persons (PEPs), so that I can control device-specific permissions."
+  },
+  {
+    "requirement": "As a user, I want to scan a QR code to make instant payments, so that I can complete payments quickly in stores."
+  },
+  {
+    "requirement": "As a user, I want to set transaction limits for UPI transfers, so that I can reduce fraud risk in peer transfers."
+  },
+  {
+    "requirement": "As a user, I want to receive payment confirmation with payer details, so that I can confirm sender identity before trusting the payment."
+  },
+  {
+    "requirement": "As a user, I want to schedule UPI transfers for future dates, so that I can plan payments around due dates."
+  },
+  {
+    "requirement": "As a user, I want to view UPI transaction history with filters, so that I can analyze my UPI expenses better."
+  },
+  {
+    "requirement": "As a user, I want to get notified when a UPI request is received, so that I can respond to payment requests on time."
+  },
+  {
+    "requirement": "As a user, I want to block UPI requests from unknown users, so that I can avoid spam UPI requests."
+  },
+  {
+    "requirement": "As a user, I want to assign nicknames to frequent UPI recipients, so that I can easily identify personal vs business transfers."
+  },
+  {
+    "requirement": "As a user, I want to receive rewards for repeated UPI usage, so that I can earn benefits from consistent digital usage."
+  },
+  {
+    "requirement": "As a user, I want to auto-categorize UPI spends by merchant type, so that I can gain insights into where I spend using UPI."
+  },
+  {
+    "requirement": "As a user, I want to verify UPI ID before high-value transfers, so that I can avoid mistakes in sending large amounts."
+  },
+  {
+    "requirement": "As a user, I want to disable UPI access on lost devices remotely, so that I can protect my account in case of theft."
+  },
+  {
+    "requirement": "As a user, I want to track refunds for failed UPI transactions, so that I can monitor UPI refund timelines effectively."
+  },
+  {
+    "requirement": "As a user, I want to enable voice-based UPI payments, so that I can transact hands-free in safe environments."
+  },
+  {
+    "requirement": "As a user, I want to split group expenses using UPI, so that I can manage shared costs without confusion."
+  },
+  {
+    "requirement": "As a user, I want to monitor abnormal transaction patterns, so that I can control data exposure to external entities."
+  },
+  {
+    "requirement": "As a user, I want to receive reports on account access history, so that I can stay compliant with industry security standards."
+  },
+  {
+    "requirement": "As a user, I want to enable SSO login with compliance provider, so that I can ensure transparency in data handling."
+  },
+  {
+    "requirement": "As a user, I want to scan system for known vulnerabilities, so that I can stay compliant with data protection regulations."
+  },
+  {
+    "requirement": "As a user, I want to enable secure document upload, so that I can automatically detect configuration weaknesses."
+  },
+  {
+    "requirement": "As a user, I want to generate audit-ready access logs, so that I can protect my data even when offline."
+  },
+  {
+    "requirement": "As a user, I want to access backup and recovery logs, so that I can comply with GDPR and similar laws."
+  },
+  {
+    "requirement": "As a user, I want to enforce unique user credentials, so that I can protect against unauthorized access."
+  },
+  {
+    "requirement": "As a user, I want to confirm device trust before login, so that I can audit how my data is used."
+  },
+  {
+    "requirement": "As a user, I want to receive summary of compliance violations, so that I can detect fraud early and take action."
+  },
+  {
+    "requirement": "As a user, I want to submit GDPR compliance requests, so that I can revoke data access when no longer needed."
+  },
+  {
+    "requirement": "As a user, I want to receive breach notifications, so that I can avoid fines due to regulatory violations."
+  },
+  {
+    "requirement": "As a user, I want to block accounts during legal investigations, so that I can detect and respond to suspicious behavior quickly."
+  },
+  {
+    "requirement": "As a user, I want to get notifications for failed login attempts, so that I can keep my financial data secure during transmission."
+  },
+  {
+    "requirement": "As a user, I want to access audit logs of account activity, so that I can be informed about all access events."
+  },
+  {
+    "requirement": "As a user, I want to receive end-of-day access summaries, so that I can maintain control over who accesses my account."
+  },
+  {
+    "requirement": "As a user, I want to enable whistleblower reporting feature, so that I can reduce the risk of identity theft."
+  },
+  {
+    "requirement": "As a user, I want to monitor regulatory deadlines, so that I can safeguard sensitive financial information."
+  },
+  {
+    "requirement": "As a user, I want to enable secure session timeouts, so that I can prevent misuse of personal information."
+  },
+  {
+    "requirement": "As a user, I want to limit admin privilege delegation, so that I can control device-specific permissions."
+  },
+  {
+    "requirement": "As a user, I want to record and archive user acknowledgements, so that I can control data exposure to external entities."
+  },
+  {
+    "requirement": "As a user, I want to restrict screen capture on sensitive pages, so that I can stay compliant with industry security standards."
+  },
+  {
+    "requirement": "As a user, I want to set strong password requirements, so that I can ensure transparency in data handling."
+  },
+  {
+    "requirement": "As a user, I want to configure multi-user access policies, so that I can stay compliant with data protection regulations."
+  },
+  {
+    "requirement": "As a user, I want to notify users on third-party API calls, so that I can automatically detect configuration weaknesses."
+  },
+  {
+    "requirement": "As a user, I want to require periodic consent renewal, so that I can protect my data even when offline."
+  },
+  {
+    "requirement": "As a user, I want to configure retention policy for transaction data, so that I can comply with GDPR and similar laws."
+  },
+  {
+    "requirement": "As a user, I want to approve login from new devices, so that I can protect against unauthorized access."
+  },
+  {
+    "requirement": "As a user, I want to enable two-factor authentication, so that I can audit how my data is used."
+  },
+  {
+    "requirement": "As a user, I want to get notified about regulatory changes, so that I can detect fraud early and take action."
+  },
+  {
+    "requirement": "As a user, I want to receive notification of inactive users, so that I can revoke data access when no longer needed."
+  },
+  {
+    "requirement": "As a user, I want to review app permissions regularly, so that I can avoid fines due to regulatory violations."
+  },
+  {
+    "requirement": "As a user, I want to schedule compliance training reminders, so that I can detect and respond to suspicious behavior quickly."
+  },
+  {
+    "requirement": "As a user, I want to send confirmation for sensitive settings changes, so that I can keep my financial data secure during transmission."
+  },
+  {
+    "requirement": "As a user, I want to use role-based data access, so that I can be informed about all access events."
+  },
+  {
+    "requirement": "As a user, I want to access detailed encryption settings, so that I can maintain control over who accesses my account."
+  },
+  {
+    "requirement": "As a user, I want to trigger alerts on bulk downloads, so that I can reduce the risk of identity theft."
+  },
+  {
+    "requirement": "As a user, I want to set notification rules for data export, so that I can safeguard sensitive financial information."
+  },
+  {
+    "requirement": "As a user, I want to restrict login from unknown IP addresses, so that I can prevent misuse of personal information."
+  },
+  {
+    "requirement": "As a user, I want to review and revoke third-party access, so that I can control device-specific permissions."
+  },
+  {
+    "requirement": "As a user, I want to check sanctions list before account approval, so that I can control data exposure to external entities."
+  },
+  {
+    "requirement": "As a user, I want to restrict transaction types by role, so that I can stay compliant with industry security standards."
+  },
+  {
+    "requirement": "As a user, I want to get notified of terms and conditions updates, so that I can ensure transparency in data handling."
+  },
+  {
+    "requirement": "As a user, I want to schedule security setting reviews, so that I can stay compliant with data protection regulations."
+  },
+  {
+    "requirement": "As a user, I want to set up biometric login, so that I can automatically detect configuration weaknesses."
+  },
+  {
+    "requirement": "As a user, I want to control session time by user role, so that I can protect my data even when offline."
+  },
+  {
+    "requirement": "As a user, I want to enforce secure API usage, so that I can comply with GDPR and similar laws."
+  },
+  {
+    "requirement": "As a user, I want to maintain changelog for system updates, so that I can protect against unauthorized access."
+  },
+  {
+    "requirement": "As a user, I want to review consent for data sharing, so that I can audit how my data is used."
+  },
+  {
+    "requirement": "As a user, I want to enable activity-based access control, so that I can detect fraud early and take action."
+  },
+  {
+    "requirement": "As a user, I want to restrict cross-border data transfers, so that I can revoke data access when no longer needed."
+  },
+  {
+    "requirement": "As a user, I want to support country-specific data rules, so that I can avoid fines due to regulatory violations."
+  },
+  {
+    "requirement": "As a user, I want to review past consent statements, so that I can detect and respond to suspicious behavior quickly."
+  },
+  {
+    "requirement": "As a user, I want to request personal data deletion, so that I can keep my financial data secure during transmission."
+  },
+  {
+    "requirement": "As a user, I want to verify digital signatures for key documents, so that I can be informed about all access events."
+  },
+  {
+    "requirement": "As a user, I want to enable fraud detection alerts, so that I can maintain control over who accesses my account."
+  },
+  {
+    "requirement": "As a user, I want to restrict data sharing with third parties, so that I can reduce the risk of identity theft."
+  },
+  {
+    "requirement": "As a user, I want to receive confirmation for each transaction, so that I can safeguard sensitive financial information."
+  },
+  {
+    "requirement": "As a user, I want to toggle sharing preferences for financial data, so that I can prevent misuse of personal information."
+  },
+  {
+    "requirement": "As a user, I want to log attempts to access restricted content, so that I can control device-specific permissions."
+  },
+  {
+    "requirement": "As a user, I want to view history of user consent, so that I can control data exposure to external entities."
+  },
+  {
+    "requirement": "As a user, I want to use device binding for logins, so that I can stay compliant with industry security standards."
+  },
+  {
+    "requirement": "As a user, I want to encrypt sensitive transaction data, so that I can ensure transparency in data handling."
+  },
+  {
+    "requirement": "As a user, I want to auto-disable compromised user accounts, so that I can stay compliant with data protection regulations."
+  },
+  {
+    "requirement": "As a user, I want to block devices not using latest app version, so that I can automatically detect configuration weaknesses."
+  },
+  {
+    "requirement": "As a user, I want to receive alerts when sensitive data is exported, so that I can protect my data even when offline."
+  },
+  {
+    "requirement": "As a user, I want to manage security certificates, so that I can comply with GDPR and similar laws."
+  },
+  {
+    "requirement": "As a user, I want to enforce compliance badge display, so that I can protect against unauthorized access."
+  },
+  {
+    "requirement": "As a user, I want to prevent session hijacking via OTP renewal, so that I can audit how my data is used."
+  },
+  {
+    "requirement": "As a user, I want to support audit request exports, so that I can detect fraud early and take action."
+  },
+  {
+    "requirement": "As a user, I want to restrict app access from rooted devices, so that I can revoke data access when no longer needed."
+  },
+  {
+    "requirement": "As a user, I want to enforce strong encryption on cloud backups, so that I can avoid fines due to regulatory violations."
+  },
+  {
+    "requirement": "As a user, I want to limit data display based on user role, so that I can detect and respond to suspicious behavior quickly."
+  },
+  {
+    "requirement": "As a user, I want to enable restricted mode for sensitive tasks, so that I can keep my financial data secure during transmission."
+  },
+  {
+    "requirement": "As a user, I want to require approval for high-risk actions, so that I can be informed about all access events."
+  },
+  {
+    "requirement": "As a user, I want to archive compliance approvals, so that I can maintain control over who accesses my account."
+  },
+  {
+    "requirement": "As a user, I want to get notified when compliance terms expire, so that I can reduce the risk of identity theft."
+  },
+  {
+    "requirement": "As a user, I want to verify user identity through KYC, so that I can safeguard sensitive financial information."
+  },
+  {
+    "requirement": "As a user, I want to define data retention policies, so that I can prevent misuse of personal information."
+  },
+  {
+    "requirement": "As a financial analyst, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to review transaction history, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+"requirement": "As a account holder, I want to compare credit card offers, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a savings account holder, I want to link external bank accounts, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a website visitor, I want to invest in mutual funds, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a user, I want to track credit score trends, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a customer, I want to set up budget categories and spending limits, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a financial analyst, I want to download monthly account statements, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a investor, I want to receive push notifications for due bills, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a website visitor, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a loan applicant, I want to review transaction history, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a investor, I want to setup automatic savings transfers, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a account holder, I want to apply for personal loans online, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a investor, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a customer, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a financial analyst, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a budget planner, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a customer, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a loan applicant, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a savings account holder, I want to update contact information securely, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a account holder, I want to view real-time account balances across all accounts, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a savings account holder, I want to schedule recurring bill payments, so that I can manage my finances more effectively."
+},
+{
+"requirement": "As a loan applicant, I want to receive personalized financial advice based on spending patterns, so that I can manage my finances more effectively."
+},
+{
+    "requirement": "As a loan applicant, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+}
+,
+  {
+    "requirement": "As a customer, I want to setup automatic savings transfers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to link external bank accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to access tax documents, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to enable biometric login for security, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to create custom financial dashboards, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to subscribe to financial wellness tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to receive real-time market alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to view detailed loan amortization schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to access financial news and updates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to schedule recurring investments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to update contact information securely, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to calculate retirement planning projections, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to set up emergency fund alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to monitor portfolio performance across multiple accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to receive personalized loan recommendations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to set up fraud protection preferences, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to analyze spending trends with AI insights, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to create automated bill payment schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to track environmental impact of investments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to set up family budget sharing features, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to access cryptocurrency trading options, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to create expense forecasting models, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to receive tax optimization recommendations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to set up goal-based savings accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to generate cash flow analysis reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to access financial education resources, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to compare insurance product options, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to receive spending limit notifications, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to submit documents for loan approval, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to access investment research reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up charitable giving automation, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to create financial milestone tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to access debt consolidation calculators, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to set up financial goal reminders, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to receive personalized investment advice, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to create multi-currency portfolio tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to access financial wellness assessments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to set up vacation savings plans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to create expense category analytics, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to access investment opportunity alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up automated wealth building strategies, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to create custom financial reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to access premium financial advisory services, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to set up college savings fund tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to receive quarterly financial health checkups, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to create financial legacy planning tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to access real-time spending analytics, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to set up business expense categorization, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to receive loan pre-approval status updates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to access financial stress testing tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to create seasonal budget adjustments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to set up smart contract savings plans, so that I can manage my finances more effectively."
+  }
+  ,
+  {
+    "requirement": "As a budget planner, I want to receive push notifications for due bills, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to convert currencies with live rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to view detailed loan amortization schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to compare credit card offers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up automated investment portfolios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to create custom spending alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to track multiple financial goals simultaneously, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to access personalized credit improvement tips, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to enable biometric login for security, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to access financial news and updates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to dispute incorrect charges, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to create emergency fund tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up voice-activated banking commands, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to receive market volatility alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to link external bank accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to schedule recurring bill payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to integrate wallet with budgeting tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to access robo-advisor investment recommendations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to view real-time stock market data, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to simulate different loan repayment scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to set up bill payment reminders, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to create digital financial receipts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to access mortgage pre-qualification tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to set up college savings fund automation, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to review transaction history, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to access peer-to-peer payment features, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to create financial wellness scorecards, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to set up tax loss harvesting alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to access real-time spending analytics, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to create retirement income projections, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to submit documents for loan approval, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to access financial stress testing tools, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to set up dividend reinvestment plans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to create personalized budget templates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to access cryptocurrency portfolio tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to receive ESG investment recommendations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to set up automated charitable donations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to access financial planning workshops, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to create custom investment watchlists, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to access alternative investment opportunities, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  }
+,
+  {
+    "requirement": "As a customer, I want to filter transactions by date, category, or amount, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to access tax documents, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to export transaction history to PDF or Excel, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to upload receipts for expense tracking, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to apply for a personal loan, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to switch between multiple accounts seamlessly, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to invest in mutual funds, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to get insights from spending patterns, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to verify transactions using OTP, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to schedule automatic bill payments, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to monitor real-time portfolio performance, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to view detailed loan amortization schedules, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to enable two-factor authentication for logins, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a financial analyst, I want to receive alerts for unusual spending, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to generate investment performance reports, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up emergency fund notifications, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to create multiple savings buckets, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to enable biometric login for security, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to view breakdown of monthly expenses, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to get cashback offers based on spending habits, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to customize budget categories, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to link external bank accounts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to set savings goals and track progress, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to track credit score trends, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to compare different loan terms and rates, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to setup automatic savings transfers, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a investor, I want to redeem reward points from purchases, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to review interest rates on savings and loans, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a customer, I want to create and manage financial budgets with alerts, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a mobile app user, I want to access financial education resources, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to track investment dividends and capital gains, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to simulate retirement planning scenarios, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a account holder, I want to request a temporary card block, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to set up price alerts for stocks and cryptocurrencies, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a user, I want to download monthly account statements, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a budget planner, I want to track and categorize charitable donations, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a savings account holder, I want to report unauthorized transactions, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a loan applicant, I want to get pre-approval estimates for mortgages, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a website visitor, I want to calculate loan eligibility, so that I can manage my finances more effectively."
+  },
+  {
+    "requirement": "As a international student, I want to perform international transfers with currency conversion, so that I can send money abroad and ensure accurate converted amounts."
+  },
+  {
+    "requirement": "As a merchant, I want to initiate payments via QR code scanning, so that I can pay merchants or peers without entering account details."
+  },
+  {
+    "requirement": "As a business account holder, I want to transfer funds using UPI, so that I can send money 24/7 using mobile-based identifiers."
+  },
+  {
+    "requirement": "As a business account holder, I want to make internal transfers within the same bank, so that I can move money quickly between my own accounts or to other users of the same bank."
+  },
+  {
+    "requirement": "As a international student, I want to make internal transfers within the same bank, so that I can move money quickly between my own accounts or to other users of the same bank."
+  },
+  {
+    "requirement": "As a international student, I want to transfer funds using NEFT, so that I can schedule bank transfers during business hours in India."
+  },
+  {
+    "requirement": "As a merchant, I want to make internal transfers within the same bank, so that I can move money quickly between my own accounts or to other users of the same bank."
+  },
+  {
+    "requirement": "As a corporate employee, I want to perform international transfers with currency conversion, so that I can send money abroad and ensure accurate converted amounts."
+  },
+  {
+    "requirement": "As a business account holder, I want to perform international transfers with currency conversion, so that I can send money abroad and ensure accurate converted amounts."
+  },
+  {
+    "requirement": "As a business account holder, I want to add and manage payees or beneficiaries, so that I can streamline future transfers and reduce input errors."
+  },
+  {
+    "requirement": "As a business account holder, I want to transfer funds using RTGS, so that I can send high-value payments securely in real-time."
+  }
+  
+]

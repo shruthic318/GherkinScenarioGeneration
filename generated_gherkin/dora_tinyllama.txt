@@ -1,0 +1,24 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+Feature: Live Market Prices Fetching
+
+Scenario: Successful Fetching of Live Market Prices
+Given the user has authorized the application to fetch live market prices
+And the application has been recently launched with a new timestamp
+When the application calls the live market prices API
+Then the application should retrieve live market prices with a latency of less than 1 second
+And the retrieved prices should be accurate
+
+Scenario: Failed Fetching of Live Market Prices Due to Low Latency
+Given the user has authorized the application to fetch live market prices
+And the application has been recently launched with a low timestamp
+When the application calls the live market prices API
+Then the application should retrieve live market prices with a latency of less than 1 second
+But the retrieved prices should be inaccurate
+
+Scenario: Failed Fetching of Live Market Prices Due to API Interruption
+Given the user has authorized the application to fetch live market prices
+And the application has been recently launched with a high timestamp
+When the application calls the live market prices API
+Then the application should receive an error message
+And the application should attempt to retrieve live market prices again after a delay of 5 seconds
+Until the API becomes available again
