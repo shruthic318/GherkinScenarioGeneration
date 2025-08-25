@@ -1,0 +1,82 @@
+path:
+  gherkin_scenario_survey: cohenKappa/GherkinScenarioSurvey.xlsx
+
+phi:
+  base_model_dir: microsoft/phi-1_5
+  finetuned_ia3_model_dir: saved_models/phi/finetuned_ia3
+  finetuned_model_dir: saved_models/phi/finetuned
+  finetuned_100_model_dir: saved_models/phi/finetuned_100
+  finetuned_400_model_dir: saved_models/phi/finetuned_400
+  finetuned_1000_model_dir: saved_models/phi/finetuned_1000
+  training:
+    logging_dir: "logs/phi"
+    metrics_100_dir: "training_metrics/phi/100"
+    metrics_400_dir: "training_metrics/phi/400"
+    metrics_1000_dir: "training_metrics/phi/1000"
+    metrics_dora_dir: "training_metrics/phi/dora"
+    metrics_ia3_dir: "training_metrics/phi/ia3"
+    log_steps: 10  
+    eval_steps: 50  
+    save_steps: 25 
+    max_seq_length: 1024 
+    
+tinyllama:
+  base_model_dir: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  finetuned_ia3_model_dir: saved_models/tinyllama/finetuned_ia3
+  finetuned_model_dir: saved_models/tinyllama/finetuned
+  finetuned_100_model_dir: saved_models/tinyllama/finetuned_100
+  finetuned_400_model_dir: saved_models/tinyllama/finetuned_400
+  finetuned_1000_model_dir: saved_models/tinyllama/finetuned_1000
+  training:
+    logging_dir: "logs/tinyllama"
+    metrics_100_dir: "training_metrics/tinyllama/100"
+    metrics_400_dir: "training_metrics/tinyllama/400"
+    metrics_1000_dir: "training_metrics/tinyllama/1000"
+    metrics_dora_dir: "training_metrics/tinyllama/dora"
+    metrics_ia3_dir: "training_metrics/tinyllama/ia3"
+    log_steps: 10  
+    eval_steps: 50  
+    save_steps: 25 
+  
+starcoder:
+  base_model_dir: bigcode/starcoder2-3b
+  finetuned_model_dir: saved_models/starcoder/finetuned
+  finetuned_ia3_model_dir: saved_models/starcoder/finetuned_ia3
+  finetuned_100_model_dir: saved_models/starcoder/finetuned_100
+  finetuned_400_model_dir: saved_models/starcoder/finetuned_400
+  finetuned_1000_model_dir: saved_models/starcoder/finetuned_1000
+  training:
+    logging_dir: "logs/starcoder"
+    metrics_100_dir: "training_metrics/starcoder/100"
+    metrics_400_dir: "training_metrics/starcoder/400"
+    metrics_1000_dir: "training_metrics/starcoder/1000"
+    metrics_dora_dir: "training_metrics/starcoder/dora"
+    metrics_ia3_dir: "training_metrics/starcoder/ia3"
+    log_steps: 10  
+    eval_steps: 50  
+    save_steps: 25 
+  
+deepseek:
+  base_model_dir: deepseek-ai/deepseek-coder-1.3b-base  
+  finetuned_ia3_model_dir: saved_models/deepseek/finetuned_ia3
+  finetuned_model_dir: saved_models/deepseek/finetuned
+  finetuned_100_model_dir: saved_models/deepseek/finetuned_100
+  finetuned_400_model_dir: saved_models/deepseek/finetuned_400
+  finetuned_1000_model_dir: saved_models/deepseek/finetuned_1000
+  training:
+    logging_dir: "logs/deepseek"
+    metrics_100_dir: "training_metrics/deepseek/100"
+    metrics_400_dir: "training_metrics/deepseek/400"
+    metrics_1000_dir: "training_metrics/deepseek/1000"
+    metrics_dora_dir: "training_metrics/deepseek/dora"
+    metrics_ia3_dir: "training_metrics/deepseek/ia3"    
+    eval_steps: 50  
+    save_steps: 25 
+  
+inference:
+  test_data: data/testdata/test_data.json
+  test_data_100: data/testdata/test_data_100.json
+  test_data_400: data/testdata/test_data_400.json
+
+huggingface:
+  token: 
