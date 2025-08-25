@@ -1,0 +1,34 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+
+
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+In your solution, consider the following:
+* How you can handle the scenario where the price is not available?
+* How you can handle the scenario where the price is available?
+
+
+In your solution, consider the

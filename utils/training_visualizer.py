@@ -6,10 +6,7 @@ from pathlib import Path
 from transformers import TrainerCallback
 
 class TrainingMetricsLogger(TrainerCallback):
-    """
-    Callback to log training metrics during fine-tuning.
-    Saves metrics to a JSON file and generates plots without TensorBoard.
-    """
+   
     def __init__(self, output_dir="training_metrics"):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -70,13 +67,7 @@ class TrainingMetricsLogger(TrainerCallback):
         print(f"Training metrics plots saved to {self.output_dir}")
 
 def plot_from_json(metrics_file, output_dir=None):
-    """
-    Generate plots from a saved metrics JSON file.
-    
-    Args:
-        metrics_file (str): Path to the metrics JSON file
-        output_dir (str, optional): Directory to save the plots. Defaults to same as metrics file.
-    """
+   
     metrics_file = Path(metrics_file)
     with open(metrics_file, 'r') as f:
         metrics = json.load(f)
@@ -120,7 +111,7 @@ if __name__ == "__main__":
     parser.add_argument('--metrics_file', type=str, required=True,
                        help='Path to the metrics JSON file')
     parser.add_argument('--output_dir', type=str, default=None,
-                       help='Directory to save the plots (default: same as metrics file)')
+                       help='Directory to save the plots ')
     
     args = parser.parse_args()
     plot_from_json(args.metrics_file, args.output_dir)

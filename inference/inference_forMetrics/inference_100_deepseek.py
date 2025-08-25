@@ -8,7 +8,7 @@ import gc
 
 def run(input_path, config):
     gc.collect()
-    # Device set to use MPS or CPU
+
     if torch.backends.mps.is_available():
         torch.mps.empty_cache()
         device = torch.device("mps")

@@ -1,0 +1,25 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+
+```python
+def fetch_market_price(price_unit: str, limit: int = 50):
+    # your code here
+```
+Hint: Retrieve data from the API for the price of a particular cryptocurrency.
+
+```python
+def fetch_market_price(price_unit: str, limit: int = 50):
+    url = f"https://api.coingecko.com/api/v3/simple/price?ids={crypto_id}&vs_currencies={price_unit}&limit={limit}"
+    # your code here
+```
+
+3. Write a function that takes a list of cryptocurrency symbols and a list of cryptocurrency prices, and generates a Gherkin scenario that fetches and displays the prices of all the cryptocurrencies in the list.
+
+```python
+def fetch_multiple_cryptocurrency_prices(crypto_symbols: list, prices: list):
+    # your code here
+```
+Hint: You can use a nested for loop to iterate over both lists simultaneously.
+
+```python
+def fetch_multiple_cryptocurrency_prices(crypto_symbols: list, prices: list):
+    count = len(crypt

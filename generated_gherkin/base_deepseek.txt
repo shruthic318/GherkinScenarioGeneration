@@ -1,0 +1,33 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+
+### Feature: Market Prices API
+
+### Scenario: Get market prices
+
+* Given an endpoint
+* When the endpoint is called with the market code
+* Then the application should return the market prices
+
+Scenario Outline: Get market prices
+
+   Given an endpoint
+   When the endpoint is called with the market code
+   Then the application should return the market prices
+   
+   Examples:
+   | marketCode | statusCode | value |
+   | GOOGLE     | 200        | { "value" : 100 } |
+   | FACEBOOK   | 200        | { "value" : 200 } |
+   | YAHOO      | 200        | { "value" : 300 } |
+
+Scenario: Get market prices with invalid market code
+
+   Given an endpoint
+   When the endpoint is called with the market code
+   Then the application should return the market prices
+   And  the application should return the market prices with an error
+
+   Examples:
+   | marketCode | statusCode | value |
+   | GOOGLE     | 400        | { "error" : "Invalid market code" } |
+   | FACEBOOK   | 4

@@ -9,7 +9,7 @@ import seaborn as sns
 
 
 def parse_csv_file(file_path: Path) -> List[dict]:
-    """Parse a CSV inference result file and return metrics."""
+    
     print(f"  Parsing file: {file_path}")
     if not file_path.exists():
         print("  File does not exist!")
@@ -69,7 +69,7 @@ def parse_csv_file(file_path: Path) -> List[dict]:
 
 
 def load_all_results(results_dir: Path) -> List[dict]:
-    """Load all inference results from the directory."""
+    
     all_results = []
     
     # Look for CSV files
@@ -94,7 +94,7 @@ def load_all_results(results_dir: Path) -> List[dict]:
 
 
 def plot_metric_comparison(df: pd.DataFrame, metric: str, output_dir: Path):
-    """Generate comparison plots with model types on x-axis and models in legend."""
+   
     if df.empty:
         return
     
@@ -175,7 +175,7 @@ def plot_metric_comparison(df: pd.DataFrame, metric: str, output_dir: Path):
 
 
 def plot_data_scaling_comparison(df: pd.DataFrame, output_dir: Path):
-    """Generate comparison plots showing how metrics change with sample size for each model."""
+   
     if df.empty:
         return
     
@@ -280,7 +280,6 @@ def main():
     # Generate data scaling comparison plots
     plot_data_scaling_comparison(df, output_dir)
     
-    print("\nAll visualizations have been generated successfully!")
 
 if __name__ == "__main__":
     main()

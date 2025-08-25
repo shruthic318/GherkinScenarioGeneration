@@ -1,0 +1,29 @@
+For the following requirement, generate Gherkin scenarios: The application should fetch live market prices with a latency of less than 1 second.
+
+1. Given I am logged in as a market trader
+
+  Scenario: Fetch market prices using market data API
+    Given The market trader is logged in
+    When The market trader fetches market data
+    Then The market trader should receive a response with live market prices within 1 second
+
+2. Given I am not logged in as a market trader
+
+  Scenario: Fetch market prices using market data API
+    Given The market trader is not logged in
+    When The market trader fetches market data
+    Then The market trader should receive a response with live market prices within 1 second
+
+3. Given I am not logged in as a market trader
+
+  Scenario: Fetch market prices using market data API
+    Given The market trader is not logged in
+    When The market trader fetches market data
+    Then The market trader should receive a response with live market prices within 1 second
+
+4. Given I am logged in as a market trader
+
+  Scenario: Fetch market prices using market data API
+    Given The market trader is logged in
+    When The market trader fetches market data
+    Then The market trader should receive a response with live
