@@ -7,7 +7,9 @@ git to clone the repository
 # Install all the required libraries, by running the following command in terminal
 pip install -r requirements.txt
 
-# Set the Open API key in .env file against OPEN_AP_KEY(so that labelling can be performed, using openAI)
+# Create a .env file 
+with key as "OPENAI_API_KEY" and set the openai api key against it (so that labelling can be performed, using openAI)
+
 # Set the hugging face token in config/config/yaml , against the
 hugging face:
  token:
