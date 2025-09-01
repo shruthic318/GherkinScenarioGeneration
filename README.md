@@ -18,6 +18,10 @@ hugging face:
 python3 main.py --model [model_name] --mode [mode] --input [input_path] --config config/config.yaml
 
  Possible values for mode: 
+ finetune
+ finetune_100
+ finetune_400
+ finetune_1000
  inference
  inference_100
  inference_400
