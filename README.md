@@ -17,15 +17,21 @@ hugging face:
 # to run the finetune model script /inference script, the following command needs to be run
 python3 main.py --model [model_name] --mode [mode] --input [input_path] --config config/config.yaml
 
+Possible values for model:
+tinyllama
+phi
+deepseek
+starcoder
+
  Possible values for mode: 
- finetune
- finetune_100
- finetune_400
- finetune_1000
- inference
- inference_100
- inference_400
- inference_1000
+ finetune |
+ finetune_100 |
+ finetune_400| 
+ finetune_1000| 
+ inference|
+ inference_100 |
+ inference_400 |
+ inference_1000 |
  inference_ia3
 
 # sample command to run finetune deepseek model with 100 data samples. 
